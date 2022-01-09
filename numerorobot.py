@@ -34,45 +34,34 @@ Usted esta jugando con la dificultad FACIL del robot, suerte.
             ''')
 
      print ("Robot, inserta tu numero de la suerte:  ")
-
      print(f"Maquina: {robot}")
-
      user = int(input('''Usuario, inserta tu  numero de la suerte:
 
 Usuario: '''))
 
      if numero > user:
-
              print("El numero es mas grande")
 
      elif numero < user:
-
              print("El numero es mas chico")       
 
      if user == numero:
-
              print("El USER ADIVINO EL NUMERO")
 
      elif robot == numero:
-
          print("EL ROBOT ADIVINO EL NUMERO")
 
      input("Inserta enter para continuar")
-
      os.system("cls")
 
      while user != numero and robot != numero:
-
          if robot != numero and numero > 50: 
-
              robot = random.randint(50,100)
 
          elif robot != numero and numero < 50:
-
              robot = random.randint(1,50)
 
          print ("Robot, inserta tu numero de la suerte:  ")
-
          print(f"Maquina: {robot}")
 
          user = int(input('''Usuario, inserta tu  numero de la suerte:
@@ -80,35 +69,27 @@ Usuario: '''))
 Usuario: '''))
 
          if numero > user:
-
              print("El numero es mas grande")
 
          elif numero < user:
-
              print("El numero es mas chico")       
 
          if user == numero:
-
              print("El USER ADIVINO EL NUMERO")
 
          elif robot == numero:
-
              print("EL ROBOT ADIVINO EL NUMERO")      
 
          input("Presiona enter para continuar")
-
          os.system("cls")         
 
 if esc == 2:
-
      print ('''BIENVENIDO AL JUEGO DEL NUMERO DE LA SUERTE!
 
 Usted esta jugando con la dificultad MEDIO del robot, suerte.      
-
             ''')
 
      print ("Robot, inserta tu numero de la suerte:  ")
-
      print(f"Maquina: {robot}")
 
      user = int(input('''Usuario, inserta tu  numero de la suerte:
@@ -116,69 +97,53 @@ Usted esta jugando con la dificultad MEDIO del robot, suerte.
 Usuario: '''))
 
      if numero > user:
-
              print("El numero es mas grande")
 
      elif numero < user:
-
              print("El numero es mas chico")       
 
      if user == numero:
-
              print("El USER ADIVINO EL NUMERO")
 
      elif robot == numero:
-
          print("EL ROBOT ADIVINO EL NUMERO")
 
      input("Inserta enter para continuar")
-
      os.system("cls")
 
      while user != numero and robot != numero:
 
          if robot != numero and numero >= 1 and numero <= 25: 
-
              robot = random.randint(1,25)
 
          elif robot != numero and numero >= 26 and numero <= 50:
-
              robot = random.randint(26,50)
 
          elif robot != numero and numero >= 51 and numero <= 75:
-
              robot = random.randint(51,75)
 
          elif robot != numero and numero >= 76 and numero <=100:
-
              robot = random.randint(76,100)
 
          print ("Robot, inserta tu numero de la suerte:  ")
-
          print(f"Maquina: {robot}")
-
          user = int(input('''Usuario, inserta tu  numero de la suerte:
 
 Usuario: '''))
 
          if numero > user:
-
              print("El numero es mas grande")
 
          elif numero < user:
-
              print("El numero es mas chico")       
 
          if user == numero:
-
              print("El USER ADIVINO EL NUMERO")
 
          elif robot == numero:
-
              print("EL ROBOT ADIVINO EL NUMERO")
 
          input("Presione enter para continuar ")
-
          os.system("cls")
 
 if esc == 3:
@@ -190,7 +155,6 @@ Usted esta jugando con la dificultad DIFICIL del robot, suerte.
             ''')
 
      print ("Robot, inserta tu numero de la suerte:  ")
-
      print(f"Maquina: {robot}")
 
      user = int(input('''Usuario, inserta tu  numero de la suerte:
@@ -198,19 +162,15 @@ Usted esta jugando con la dificultad DIFICIL del robot, suerte.
 Usuario: '''))
 
      if numero > user:
-
              print("El numero es mas grande")
 
      elif numero < user:
-
              print("El numero es mas chico")       
 
      if user == numero:
-
              print("El USER ADIVINO EL NUMERO")
 
      elif robot == numero:
-
          print("EL ROBOT ADIVINO EL NUMERO")
 
      input("Inserta enter para continuar")
@@ -218,7 +178,6 @@ Usuario: '''))
      os.system("cls")
 
      while user != numero and robot != numero:
-
          if robot != numero and numero >= 1 and numero <= 10: 
              robot = random.randint(1,10)
 
@@ -250,9 +209,7 @@ Usuario: '''))
              robot = random.randint(91,100)
 
          print ("Robot, inserta tu numero de la suerte:  ")
-
          print(f"Maquina: {robot}")
-
          user = int(input('''Usuario, inserta tu  numero de la suerte:
 Usuario: '''))
 
@@ -269,5 +226,4 @@ Usuario: '''))
              print("EL ROBOT ADIVINO EL NUMERO")
              
          input("Inserta enter para continuar")
-
          os.system("cls")
